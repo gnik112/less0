@@ -30,6 +30,7 @@ class UrTube:
         for user in self.users:
             if user.nickname == nickname and user.password == hash(password):
                 self.current_user = user
+                break
 
     def register(self, nickname, password, age):
         """ Регистрация нового пользователя """
