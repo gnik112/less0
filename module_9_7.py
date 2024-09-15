@@ -12,6 +12,7 @@ def is_prime(func):
         else:
             print("Составное")
         return rez
+        
     return wrapper
 
 
